@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahuao\\source\\repos\\qqban\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D835545B-9426-4DC0-BD1E-E60DC9524640}|qqban.csproj|C:\\Users\\ahuao\\source\\repos\\qqban\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D835545B-9426-4DC0-BD1E-E60DC9524640}|qqban.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D835545B-9426-4DC0-BD1E-E60DC9524640}|qqban.csproj|c:\\users\\ahuao\\source\\repos\\qqban\\onebotintegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D835545B-9426-4DC0-BD1E-E60DC9524640}|qqban.csproj|solutionrelative:onebotintegration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OneBotIntegration.cs",
+              "DocumentMoniker": "C:\\Users\\ahuao\\source\\repos\\qqban\\OneBotIntegration.cs",
+              "RelativeDocumentMoniker": "OneBotIntegration.cs",
+              "ToolTip": "C:\\Users\\ahuao\\source\\repos\\qqban\\OneBotIntegration.cs",
+              "RelativeToolTip": "OneBotIntegration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:57:33.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\ahuao\\source\\repos\\qqban\\Config.cs",
+              "RelativeDocumentMoniker": "Config.cs",
+              "ToolTip": "C:\\Users\\ahuao\\source\\repos\\qqban\\Config.cs",
+              "RelativeToolTip": "Config.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T15:33:28.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
