@@ -149,6 +149,11 @@ namespace OneBotIntegration
                             }
                             break;
 
+                        case "/cx":
+                            Log.Info("收到查询在线人数命令...");
+                            QueryOnlinePlayers().GetAwaiter().GetResult();
+                            break;
+
                         case "/verify_qq":
                             Log.Info("收到 QQ 号验证命令...");
                             if (parts.Length >= 2)
@@ -248,6 +253,30 @@ namespace OneBotIntegration
                 await SendQQMessageAsync($"未找到玩家 {steam64id}。");
             }
         }
+        private async Task QueryOnlinePlayers()
+        {
+            try
+            {
+                // 获取当前在线玩家
+                var onlinePlayers = Player.List;
+
+                // 构造消息内容
+                string message = $"当前服务器在线人数: {onlinePlayers.Count()}\n";
+                message += "在线玩家列表:\n";
+                foreach (var player in onlinePlayers)
+                {
+                    message += $"- {player.Nickname} ({player.UserId})\n";
+                }
+
+                // 发送消息到 QQ
+                await SendQQMessageAsync(message);
+            }
+            catch (Exception ex)
+            {
+                Log.Error($"查询在线人数时出错: {ex.Message}");
+                await SendQQMessageAsync("查询在线人数时出错，请稍后重试。");
+            }
+        }
 
         private async Task VerifyQQ(string qqNumber)
         {
@@ -271,6 +300,7 @@ namespace OneBotIntegration
                                  "/unban_player <steam64id> - 解封玩家\n" +
                                  "/kick_player <steam64id> - 踢出玩家\n" +
                                  "/verify_qq <qq号> - 验证 QQ 号\n" +
+                                 "/cx - 查询当前服务器在线人数\n" +
                                  "/help - 显示帮助信息";
 
             await SendQQMessageAsync(helpMessage);
