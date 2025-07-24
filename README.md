@@ -17,4 +17,4 @@
 
 ---
 
-✨ 点击 [这里]([https://github.com/linmo-CN/SL_qqban/blob/main/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D](https://github.com/linmo-CN/SL_qqban/blob/main/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D.md)) 了解更多并开始使用 **SL_qqban** 插件！
+✨ 点击 [这里]([(https://github.com/linmo-CN/SL_qqban/blob/main/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D.md)]) 了解更多并开始使用 **SL_qqban** 插件！
